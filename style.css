@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 330px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 40px auto;
+
+    height: 85vh;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 0 15px;
+}
+
+.text h2 {
+    color: hsl(0, 0%, 100%);
+    padding-top: 8px;
+}
+
+.text p {
+    padding: 12px 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.last-img {
+    width: 30px;
+}
+
+.separate {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.separate p:first-child {
+    color: hsl(178, 100%, 50%);
+}
+
+.separate p:nth-child(2) {
+    color: hsl(215, 51%, 70%);
+    padding-right: 20px;
+}
+
+hr {
+    width: 85%;
+    margin-left: 15px;
+    border-color: hsl(215, 51%, 70%)
+}
+
+.last-piece {
+    display: flex;
+    padding: 10px 15px;
+    padding-top: 15px;
+}
+
+.last-piece p {
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.mega {
+    color: hsl(0, 0%, 100%);
+}
+svg{
+    padding-top: 2px;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .container {
+        height: 50vh;
+        margin-top: 7rem;
+    }
+}
