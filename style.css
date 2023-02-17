@@ -91,7 +91,7 @@ svg{
 
 
 
-@media only screen and  (max-width: 600px) and (min-width: 300px) {
+@media only screen and  (max-width: 600px) and (min-width: 200px) {
     .container {
         height: 55vh;
         margin-top: 7rem;
